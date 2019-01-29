@@ -1,0 +1,6 @@
+Each bone spans from one junction to another.
+How to manage the locations of the bones?
+I don't think their physical presence is a good plan. It has to be stored somewhere else.
+Could have a central script that is in charge of all objects and their theoretical locations. The builderUI controller would then inform this script of the addition of pieces.
+
+When you select a node (point), the objects that can be added based on one node are shown. (Decor, maybe wheels) When you select another, struts and springs show up. When you select a third, cowling, windows, and maybe wheels show up.
